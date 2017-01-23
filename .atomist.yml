@@ -39,3 +39,18 @@ generator:
     - "root_package": "com.coxautodev"
     - "service_class_name": "RestPlayground"
 
+---
+kind: "operation"
+client: "atomist"
+editor:
+  name: "atomist-rugs.spring-boot-editors.AddDockerMavenBuild"
+  group: "atomist-rugs"
+  artifact: "spring-boot-editors"
+  version: "0.3.0"
+  origin:
+    repo: "atomist-rugs/spring-boot-editors.git"
+    branch: "3ef0b81b36ddada7a53d54ee9b731665de02a99b"
+    sha: "3ef0b81"
+  parameters:
+    - "base_docker_repository": "restplayground"
+

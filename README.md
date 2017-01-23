@@ -38,3 +38,20 @@ The following Atomist editors are available for this project:
 ---
 Created on 2017-01-23 by Atomist.
 Need Help? <a href="https://join.atomist.com/">Join our Slack community</a>.
+
+## Create a docker container
+
+You can now build, package and run this microservice using Docker.
+
+Now you can build your docker image by entering from a terminal where
+you have access to Docker, execute the following command:
+
+```sh
+$ ./mvnw clean package docker:build
+```
+
+Even push it to a repository of your choice:
+
+```sh
+$ ./mvnw clean package docker:build -DpushImage
+```

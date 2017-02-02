@@ -2,7 +2,6 @@
 
 My new project
 
-
 This Spring Boot microservice is driven using Maven. To run locally
 simply execute the following from the command line:
 
@@ -10,6 +9,7 @@ simply execute the following from the command line:
 $ ./mvnw spring-boot:run
 ```
 
+To run in outer space, see [spacex](http://spacex.com)
 
 This microservice comes with some rudimentary tests as a good starting
 point for writing your own. Use the following command to execute the
